@@ -1,0 +1,19 @@
+{{#partial "title" }}
+  Scrabble Score Calculator
+{{/partial}}
+
+<!--form.hbs.-->
+{{#partial "content"}}
+
+<h1>Enter the word you'd like to score</h1>
+<form action='/change_result'>
+ <div class="form-group">
+   <label for="word">Word</label>
+   <input id="word" name="word" class="form-control" type="text">
+ </div>
+ <button type="submit" class="btn">Go!</button>
+</form>
+<!--form.hbs.-->
+{{/partial}}
+
+{{> layout.hbs}}

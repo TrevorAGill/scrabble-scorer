@@ -1,0 +1,15 @@
+
+html {
+  color: white;
+  background-image: url('../public/images/hannah-rodrigo-320734.jpg');
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+body{
+background_color: lightgreen;
+}

@@ -1,3 +1,5 @@
+package models;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -38,16 +40,12 @@ public class Scrabble {
             for(String mapLetter: key) {
                 for (String letter : lettersArray) {
                     if (letter.equals(mapLetter)) {
-                        System.out.println("key is " + mapLetter + " , letter is " + letter);
-                        System.out.println(scrabbleMap.get(key) + " is the value and the letter is " + letter);
                         score += scrabbleMap.get(key);
                     }
                 }
 
             }
         }
-
-        System.out.println(score);
         return score;
     }
 }
